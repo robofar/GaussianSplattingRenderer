@@ -13,7 +13,7 @@
 int main() {
     try {
         const std::string gs_path = "data/model.gsbin";
-        const std::string cfg_path = "config/bonsai.yaml";
+        const std::string cfg_path = "config/camera.yaml";
         const std::string output_dir = "output";
 
         const GaussianSet gs = GaussianSet::FromBinaryFile(gs_path);
